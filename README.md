@@ -117,7 +117,7 @@ figures/CSVs to `outputs/`, culminating in `outputs/final_comparison_rolling.csv
   for a general-purpose foundation model on an unfamiliar domain.
 - A feature-based XGBoost model, despite the richest feature set (lags,
   rolling stats, cyclical time encodings, weather/sensor covariates), placed
-  third — and its comparison is not fully like-for-like, since it was given
+  third and its comparison is not fully like-for-like, since it was given
   perfect future weather/sensor values that the other two models were not
   (see the report's Discussion Q5 for a full treatment of this caveat).
 - Full methodology, diagnostics, limitations, and the assignment's 6
