@@ -113,7 +113,7 @@ figures/CSVs to `outputs/`, culminating in `outputs/final_comparison_rolling.csv
 - A correctly-specified SARIMAX model, using only the target series itself,
   achieves the best RMSE and is highly competitive across all metrics.
 - **Chronos, used purely zero-shot with no training on this dataset at all,
-  matches or beats every other model on MAE/MAPE/sMAPE** — a striking result
+  matches or beats every other model on MAE/MAPE/sMAPE** a striking result
   for a general-purpose foundation model on an unfamiliar domain.
 - A feature-based XGBoost model, despite the richest feature set (lags,
   rolling stats, cyclical time encodings, weather/sensor covariates), placed
