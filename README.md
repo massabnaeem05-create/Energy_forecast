@@ -11,7 +11,7 @@ test period using a common rolling-window protocol:
 |---|---|---|---|---|
 | **SARIMAX(1,0,6)x(1,1,1,24)** | **328.6** | 214.2 | 33.1% | 29.7% |
 | **Chronos-Bolt-Small (zero-shot)** | 334.9 | **201.8** | **25.8%** | **26.0%** |
-| XGBoost (direct multi-horizon) | 344.7 | 242.8 | 39.6% | 34.4% |
+| XGBoost (direct multi-horizon) | 341.2 | 240.8 | 39.6% | 34.0% |
 | Mean (benchmark) | 391.2 | 296.1 | 53.6% | 46.0% |
 | Weekly Seasonal Naive (benchmark) | 404.9 | 254.6 | 37.1% | 32.5% |
 | Daily Seasonal Naive (benchmark) | 455.8 | 288.6 | 43.8% | 35.5% |
