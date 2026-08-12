@@ -38,7 +38,7 @@ cd Energy_forecast
 ├── requirements.txt
 ├── run_pipeline.py          # end-to-end pipeline: reproduces every result above
 ├── report 
-│   ├── Forecasting Household Appliance Energy Consumption.pdf          # 8-page written report
+│   ├── Massab_report.pdf          # 8-page written report
 ├── src/                      # reusable, importable modules (one per pipeline stage)
 │   ├── data_prep.py          # download/load + hourly resampling
 │   ├── eda_stationarity.py   # EDA plots, ADF/KPSS tests, ACF/PACF
